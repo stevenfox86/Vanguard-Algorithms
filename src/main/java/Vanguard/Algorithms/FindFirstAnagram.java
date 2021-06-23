@@ -60,8 +60,8 @@ public static List<String> words(){
 					Arrays.sort(potentialAnagramArr);
 
 					if (String.valueOf(targetWordArr).equals(String.valueOf(potentialAnagramArr))) {
-
-						System.out.println(potentialAnagramWord);
+						System.out.println("The Target word is : " + targetWord);
+						System.out.println("The Anagram word is : " + potentialAnagramWord);
 						return anagram = potentialAnagramWord;
 					}
 				}
